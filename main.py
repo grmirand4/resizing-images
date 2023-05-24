@@ -1,6 +1,6 @@
 from PIL import Image
 import os
-import glob
+
 
 all_files = os.listdir("./img") # Listing all files in the "img" folder
 print("{} files found.".format(len(all_files)))
