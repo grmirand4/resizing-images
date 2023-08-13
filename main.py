@@ -34,6 +34,5 @@ for file in all_files:
     except:
         print("Failed.")
         non_resized_files += 1
-        pass
 
 print("{} files resized, {} files couldn't be resized.".format(resized_files, non_resized_files))
